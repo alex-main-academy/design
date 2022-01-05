@@ -1,0 +1,125 @@
+.mobile {
+  display: none;
+}
+.welkom {
+  padding: 270px 30px 0 30px;
+}
+.welkom .container {
+  max-width: 1510px;
+  margin: auto auto;
+}
+.welkom__title img {
+  z-index: 2;
+}
+.welkom__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -80px 0 0 0;
+}
+.welkom__text {
+  margin: 0 20px 0 0;
+}
+.welkom__text p {
+  font-size: 24px;
+  max-width: 780px;
+  z-index: 1;
+}
+.jeugdhuis {
+  padding: 70px 30px 130px 30px;
+}
+.jeugdhuis .container {
+  max-width: 1510px;
+  margin: auto auto;
+}
+.jeugdhuis__text {
+  margin: 35px 0 0 0;
+  font-size: 24px;
+  max-width: 1080px;
+}
+.jeugdhuis__video {
+  margin: 70px 0 0 0;
+}
+.jeugdhuis__video iframe {
+  width: 700px;
+  height: 450px;
+}
+@media (max-width: 1600px) {
+  .welkom {
+    padding: 200px 100px 0 100px;
+  }
+  .welkom__text {
+    width: 600px;
+  }
+  .welkom__title img {
+    width: 300px;
+  }
+  .jeugdhuis {
+    padding: 70px 100px 130px 100px;
+  }
+  .jeugdhuis__title img {
+    width: 400px;
+  }
+}
+@media (max-width: 1200px) {
+  .welkom {
+    padding: 150px 100px 0 100px;
+  }
+  .welkom__image img {
+    width: 400px;
+  }
+  .welkom__info {
+    margin: -20px 0 0 0;
+  }
+}
+@media (max-width: 391px) {
+  .welkom {
+    display: none;
+  }
+  .jeugdhuis {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .mobile .container {
+    width: 320px;
+    margin: auto auto;
+  }
+  .mobile__image {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 60px 0 0 0;
+  }
+  .mobile__image img {
+    width: 190px;
+  }
+  .mobile__title-1 {
+    margin: 28px 0 0 0;
+  }
+  .mobile__title-1 img {
+    width: 133px;
+  }
+  .mobile__title-2 {
+    margin: 35px 0 0 0;
+  }
+  .mobile__title-2 img {
+    width: 220px;
+  }
+  .mobile__text-1 {
+    width: 145px;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+  }
+  .mobile__text-2 {
+    width: 270px;
+    font-size: 12px;
+    margin: 20px 0 0 0;
+  }
+  .mobile__video iframe {
+    width: 280px;
+    height: 150px;
+    margin: 60px 0 130px 0;
+  }
+}
