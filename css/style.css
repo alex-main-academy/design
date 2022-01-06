@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../font/Roboto-Regular.ttf);
+}
+body {
+  position: relative;
+}
+.orange__image {
+  position: absolute;
+  z-index: -1;
+  width: 700px;
+}
+.blue__image {
+  position: absolute;
+  z-index: -1;
+  left: 100%;
+  top: 92%;
+  transform: translate(-100%, -92%);
+}
 .mobile {
   display: none;
 }
@@ -24,6 +43,7 @@
   font-size: 24px;
   max-width: 780px;
   z-index: 1;
+  font-family: 'Roboto';
 }
 .jeugdhuis {
   padding: 70px 30px 130px 30px;
@@ -36,6 +56,7 @@
   margin: 35px 0 0 0;
   font-size: 24px;
   max-width: 1080px;
+  font-family: 'Roboto';
 }
 .jeugdhuis__video {
   margin: 70px 0 0 0;
@@ -45,6 +66,15 @@
   height: 450px;
 }
 @media (max-width: 1600px) {
+  .blue__image {
+    left: 100%;
+    top: 94%;
+    transform: translate(-100%, -94%);
+    width: 400px;
+  }
+  .orange__image {
+    width: 500px;
+  }
   .welkom {
     padding: 200px 100px 0 100px;
   }
@@ -72,7 +102,16 @@
     margin: -20px 0 0 0;
   }
 }
-@media (max-width: 391px) {
+@media (max-width: 415px) {
+  .blue__image {
+    left: 100%;
+    top: 96%;
+    transform: translate(-100%, -96%);
+    width: 156px;
+  }
+  .orange__image {
+    width: 140px;
+  }
   .welkom {
     display: none;
   }

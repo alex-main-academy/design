@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-Regular.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -42,6 +46,7 @@
         margin: 0;
         font-weight: bold;
         cursor: pointer;
+        font-family: 'Roboto';
     }
 }
 
@@ -68,7 +73,7 @@
 
 
 //media-queries for header block mobiles
-@media(max-width:391px) {
+@media(max-width:415px) {
     .header {
         padding: 30px 30px 0 30px;
         .container {
@@ -94,5 +99,21 @@
         a {
             font-size: 8px;
         }
+    }
+}
+@media (max-width:374px) {
+    .header {
+        padding: 20px 20px 0 20px;
+        .container {
+            width: 290px;
+        }
+    }
+    .header__logo {
+        img {
+            width: 70px;
+        }
+    }
+    .header__nav {
+        width: 290px;
     }
 }
