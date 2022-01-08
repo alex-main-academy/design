@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../../font/Roboto-Regular.ttf);
+}
+.contact {
+    position: relative;
+    padding: 0 20px 0 0;
+    .container {
+        max-width: 1500px;
+        margin: auto auto;
+    }
+}
+.contact__title {
+    margin: 100px 0 0 160px;
+}
+.contact__map {
+    margin: 90px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.contact__form {
+    margin: 90px 0 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.contact__label {
+    font-size: 43px;
+    color: rgb(71, 66, 215);
+    font-family: 'Roboto';
+}
+.contact__input {
+    width: 870px;
+    height: 80px;
+    padding: 0 10px;
+    border: 4px solid rgb(71, 66, 215);
+    margin: 13px 0 13px 0;
+    font-size: 40px;
+    color: rgb(71, 66, 215);
+    &:focus {
+        outline: none;
+    }
+}
+.contact__textarea {
+    padding: 0 10px;
+    width: 870px;
+    height: 270px;
+    border: 4px solid rgb(71, 66, 215);
+    margin: 13px 0 0 0;
+    font-size: 40px;
+    color: rgb(71, 66, 215);
+    &:focus {
+        outline: none;
+    }
+}
+.contact__button {
+    display: block;
+    width: 400px;
+    height: 80px;
+    border: none;
+    background: rgb(249, 221, 127);
+    margin: 50px 0 65px 0;
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto';
+}
+
+
+//contact
+
+.contact__elipse {
+    position: absolute;
+    top: 105%;
+    transform: translate(0, -105%);
+    z-index: -1;
+}
+.contact__info {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -50%);
+}
+.contact__block-2 {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 0 0;
+}
+.contact__par-1 {
+    margin:  0 0 0 15px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Roboto';
+}
+.contact__par-2 {
+    margin: 0 0 0 35px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Roboto';
+}
+.contact__par-3 {
+    display: none;
+    font-family: 'Roboto';
+}
+.contact__par-4 {
+    display: none;
+    font-family: 'Roboto';
+}
+
+
+
+//media for desktop
+@media (max-width: 1681px) {
+    .contact__title {
+        img {
+            width: 350px;
+        }
+    }
+
+    .contact__input {
+        width: 600px;
+        height: 60px;
+    }
+
+    .contact__textarea {
+        width: 600px;
+        height: 200px;
+    }
+
+    .contact__button {
+        width: 300px;
+        height: 70px;
+    }
+    .contact__image-back {
+        width: 500px;
+    }
+    .contact__block-2 {
+        img {
+            width: 80px;
+        }
+    }
+    .contact__par-2 {
+        margin: 0 0 0 15px;
+    }
+    .contact__form {
+        padding: 0 100px 0 0;
+    }
+}
+
+@media(max-width:1400px) {
+    .contact__form {
+        padding: 0;
+    }
+    .contact__map {
+        img {
+            width: 950px;
+        }
+    }
+}
+
+
+
+//media for mobile phones
+@media(max-width:480px) {
+    .contact {
+        padding: 0 0 250px 0;
+    }
+    .contact__title {
+        margin: 80px 0 0 50px;
+        img {
+            width: 195px;
+        }
+    }
+    .contact__map {
+        margin: 30px auto 0 auto;
+        img {
+            width: 298px;
+        }
+    }
+    .contact__form {
+        justify-content: center;
+        margin: 36px 0 0 0;
+    }
+    .contact__label {
+        font-size: 12px;
+    }
+    .contact__input {
+        width: 266px;
+        height: 26px;
+        margin: 5px 0 5px 0;
+        border: 2px solid rgb(71, 66, 215);
+    }
+    .contact__textarea {
+        width: 266px;
+        height: 50px;
+        margin: 5px 0 0 0;
+        border: 2px solid rgb(71, 66, 215);
+    }
+    .contact__button {
+        width: 100px;
+        height: 28px;
+        font-size: 14px;
+        margin: 35px 0 0 190px;
+    }
+    .contact__elipse {
+        
+    }
+    .contact__image-back {
+        width: 235px;
+    }
+    .contact__block-2 {
+        margin: 20px 0 0 0;
+        img {
+            width: 42px;
+        }
+    }
+    .contact__par-1 {
+        display: none;
+    }
+    .contact__par-2 {
+        display: none;
+    }
+    .contact__par-3 {
+        display: block;
+        font-size: 12px;
+        color: white;
+        margin: 0 0 0 8px;
+    }
+    .contact__par-4 {
+        display: block;
+        font-size: 12px;
+        color: white;
+        margin: 0 0 0 8px;
+    }
+}
