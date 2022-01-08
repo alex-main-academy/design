@@ -219,6 +219,7 @@
   .form__input {
     width: 210px;
     height: 30px;
+    font-size: 12px;
   }
   .form__par {
     font-size: 11px;

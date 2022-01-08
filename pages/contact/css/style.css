@@ -165,6 +165,7 @@
     height: 26px;
     margin: 5px 0 5px 0;
     border: 2px solid #4742d7;
+    font-size: 12px;
   }
   .contact__textarea {
     width: 266px;
