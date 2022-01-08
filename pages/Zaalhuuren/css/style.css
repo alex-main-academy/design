@@ -1,0 +1,255 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../font/Roboto-Regular.ttf);
+}
+.zaal .container {
+  max-width: 1620px;
+  margin: 200px auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.zaal__text {
+  margin: -150px 0 0 0;
+}
+.zaal__title h1 {
+  font-size: 100px;
+  color: #2a24d1;
+  font-family: 'Roboto';
+}
+.zaal__subtitle-1 {
+  margin: 30px 0 0 0;
+  font-size: 24px;
+  color: black;
+  max-width: 750px;
+  font-family: 'Roboto';
+}
+.zaal__subtitle-2 {
+  display: none;
+  font-family: 'Roboto';
+}
+.form {
+  margin: -60px 0 0 0;
+  position: relative;
+}
+.form .container {
+  max-width: 1620px;
+  margin: auto auto;
+  display: flex;
+  align-items: center;
+}
+.orange__elipse {
+  position: absolute;
+  z-index: -1;
+  left: 100%;
+  top: 30%;
+  transform: translate(-100%, -30%);
+}
+.blue__elipse {
+  position: absolute;
+  z-index: -1;
+  left: 100%;
+  top: 100%;
+  transform: translate(-100%, -100%);
+  width: 500px;
+}
+.form__par {
+  font-size: 43px;
+  color: #2a24d1;
+  font-family: 'Roboto';
+}
+.form__input {
+  width: 862px;
+  padding: 0 10px 0 10px;
+  height: 72px;
+  color: #2a24d1;
+  border: 4px solid #2a24d1;
+  margin: 15px 0 15px 0;
+  font-size: 30px;
+}
+.form__input:focus {
+  outline: none;
+}
+.form__zaal {
+  display: flex;
+  flex-direction: column;
+}
+.form__button {
+  display: block;
+  width: 398px;
+  height: 78px;
+  font-size: 41px;
+  color: white;
+  background-color: #f9dd7f;
+  border: none;
+  margin: 60px 0 120px 0;
+  font-family: 'Roboto';
+}
+.form__zaal-1 {
+  margin: -200px 0 0 209px;
+}
+.form__zaal-2 {
+  margin: 80px 0 0 196px;
+}
+.form__zaal-3 {
+  margin: 80px 0 0 209px;
+}
+@media (max-width: 1681px) {
+  .zaal .container {
+    max-width: 1350px;
+  }
+  .zaal__image img {
+    width: 500px;
+  }
+  .zaal__text {
+    margin: -70px 0 0 0;
+  }
+  .form {
+    margin: 0;
+  }
+  .form .container {
+    max-width: 1350px;
+  }
+  .form__input {
+    width: 600px;
+    height: 60px;
+    border: 2px solid #2a24d1;
+    margin: 10px 0 10px 0;
+  }
+  .form__par {
+    font-size: 32px;
+  }
+  .form__zaal {
+    margin: -250px 0 0 0;
+  }
+  .form__zaal-1 {
+    width: 270px;
+    margin: 0 0 0 209px;
+  }
+  .form__zaal-2 {
+    width: 270px;
+  }
+  .form__zaal-3 {
+    width: 270px;
+  }
+  .blue__elipse {
+    width: 400px;
+  }
+  .orange__elipse {
+    width: 100px;
+  }
+}
+@media (max-width: 1400px) {
+  .zaal .container {
+    max-width: 1000px;
+  }
+  .zaal__title h1 {
+    font-size: 70px;
+  }
+  .zaal__image img {
+    width: 300px;
+  }
+  .zaal__text p {
+    width: 650px;
+    font-size: 18px;
+  }
+  .form {
+    margin: 30px 0 0 0;
+  }
+  .form .container {
+    max-width: 1000px;
+  }
+  .form__input {
+    width: 500px;
+    height: 50px;
+  }
+  .form__par {
+    font-size: 24px;
+  }
+  .form__zaal-1 {
+    width: 200px;
+  }
+  .form__zaal-2 {
+    width: 200px;
+  }
+  .form__zaal-3 {
+    width: 200px;
+  }
+  .blue__elipse {
+    width: 300px;
+  }
+  .form__button {
+    width: 280px;
+    height: 60px;
+    font-size: 32px;
+  }
+}
+@media (max-width: 481px) {
+  .zaal .container {
+    width: 322px;
+    flex-direction: column;
+    margin: 90px auto 0 auto;
+    align-items: flex-start;
+  }
+  .zaal__title {
+    margin: 90px 0 0 0;
+  }
+  .zaal__title h1 {
+    font-size: 31px;
+    font-weight: bold;
+  }
+  .zaal__subtitle-1 {
+    display: none;
+  }
+  .zaal__subtitle-2 {
+    display: block;
+    font-size: 12px;
+    max-width: 190px;
+    margin: 10px 0 0 0;
+  }
+  .zaal__image {
+    margin: 35px 0 0 150px;
+  }
+  .zaal__image img {
+    width: 170px;
+  }
+  .form .container {
+    max-width: 340px;
+  }
+  .form__input {
+    width: 210px;
+    height: 30px;
+  }
+  .form__par {
+    font-size: 11px;
+  }
+  .form__button {
+    width: 99px;
+    height: 28px;
+    font-size: 14px;
+    margin: 15px 0 90px 10px;
+  }
+  .orange__elipse {
+    display: none;
+  }
+  .blue__elipse {
+    width: 195px;
+  }
+  .form__zaal-1 {
+    width: 86px;
+    margin: 40px 0 0 20px;
+  }
+  .form__zaal-2 {
+    width: 86px;
+    margin: 40px 0 0 20px;
+  }
+  .form__zaal-3 {
+    width: 86px;
+    margin: 40px 0 0 20px;
+  }
+}
+@media (max-width: 321px) {
+  .form__input {
+    width: 180px;
+  }
+}
