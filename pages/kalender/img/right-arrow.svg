@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <filter id="Oval_Copy" x="0" y="0" width="128" height="128" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.118"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group" transform="translate(11 10.998)">
+    <g transform="matrix(1, 0, 0, 1, -11, -11)" filter="url(#Oval_Copy)">
+      <circle id="Oval_Copy-2" data-name="Oval Copy" cx="53.5" cy="53.5" r="53.5" transform="translate(10.5 10.5)" fill="#fff"/>
+    </g>
+    <path id="Line_6" data-name="Line 6" d="M0,0,15.234,15.338,0,30.676" transform="translate(47.816 36.949)" fill="none" stroke="#488dff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

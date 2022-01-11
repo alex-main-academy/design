@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="608" height="180" viewBox="0 0 608 180">
+  <g id="Прямоугольник_89" data-name="Прямоугольник 89" transform="translate(48 46)" fill="none" stroke="#0700d1" stroke-width="4">
+    <rect width="560" height="134" stroke="none"/>
+    <rect x="2" y="2" width="556" height="130" fill="none"/>
+  </g>
+  <rect id="Прямоугольник_90" data-name="Прямоугольник 90" width="560" height="134" transform="translate(0 6)" fill="#fee8a0"/>
+  <text id="Kalender" transform="translate(39 105)" fill="#2a24d1" font-size="100" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Kalender</tspan></text>
+  <g id="Прямоугольник_109" data-name="Прямоугольник 109" transform="translate(48 46)" fill="none" stroke="#0700d1" stroke-width="4">
+    <rect width="560" height="134" stroke="none"/>
+    <rect x="2" y="2" width="556" height="130" fill="none"/>
+  </g>
+  <rect id="Прямоугольник_110" data-name="Прямоугольник 110" width="560" height="134" transform="translate(0 6)" fill="#fee8a0"/>
+  <text id="Kalender-2" data-name="Kalender" transform="translate(39 105)" fill="#2a24d1" font-size="100" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Kalender</tspan></text>
+</svg>
